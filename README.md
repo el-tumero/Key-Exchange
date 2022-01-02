@@ -1,5 +1,5 @@
 # Key Exchange Example
-An example of using Diffie-Helman algorithm and AES (asymetric encryption).
+An example of using Diffie-Helman algorithm and AES (symetric encryption).
 Key exchange is possible by connecting two peers with PeerJS library and PeerJS Server.
 Build using TypeScript and Webpack.
 ## How to run?
