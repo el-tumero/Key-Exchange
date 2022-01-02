@@ -1,0 +1,25 @@
+{
+  "name": "keyex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "author": "el-tumero",
+  "license": "ISC",
+  "dependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "big-integer": "^1.6.51",
+    "bignumber.js": "^9.0.2",
+    "crypto-js": "^4.1.1",
+    "peerjs": "^1.3.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

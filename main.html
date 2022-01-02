@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Exchange Example</title>
+</head>
+<body>
+    <h1>Key Exchange Example</h1>
+    <!-- <p>tumer publickey</p> -->
+    <!-- <p>0x564e98c501782177e936d98ebf2593b0be1611af96362859d7472637879db81b</p> -->
+    <p>Your private key:</p>
+    <p id="privKeyDisp"></p>
+    <p>Your public key:</p>
+    <p id="pubKeyDisp"></p>
+    <!-- <a href="./setKeypair.html">Set keypair</a> -->
+    <br>
+    <input type="text" id="receiver" placeholder="receiver id" value=""> 
+    <button id="connectBtn">Connect</button>
+    <input type="text" id="message">
+    <button id="sendBtn">Send message</button>
+    <h2>Conversation:</h2>
+    <div id='msgBox'></div>
+    <!-- <script defer>var exports = {};</script> -->
+    <script defer src="dist/main.js"></script>
+</body>
+</html>
